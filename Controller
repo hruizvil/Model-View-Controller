@@ -1,0 +1,17 @@
+'''
+    Controls model and view
+    No user interfacing, no game logic
+'''
+import connect_four_model
+"Makes moves for player, updates board, etc"
+
+# import hw7_view
+"Sends information to viewer from model"
+
+class Controller:
+    def __init__(self):
+        # Controller commands Model
+        # Model report to controller
+        self.game = connect_four_model.Board()
+        self.hello = "YO "
+        # Controller commands View
